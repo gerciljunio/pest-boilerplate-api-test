@@ -12,6 +12,7 @@
 
     <extensions>
         <bootstrap class="Qameta\Allure\PHPUnit\AllureExtension">
+          <!-- https://github.com/allure-framework/allure-phpunit?tab=readme-ov-file#installation--usage -->
           <!-- Path to config file (default is config/allure.config.php) -->
           <!-- <parameter name="config" value="config/allure.config.php" /> -->
         </bootstrap>
