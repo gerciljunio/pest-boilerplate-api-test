@@ -1,0 +1,5 @@
+.env*
+!.env.example
+vendor/
+build/
+composer.lock
