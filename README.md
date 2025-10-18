@@ -123,6 +123,6 @@ Este boilerplate foi pensado para ser simples, escalável e fácil de adaptar a 
 ## Autor
 Gercil Junio - Desenvolvedor Backend
 
-- [📧 Gmail](gerciljunio@gmail.com)
+- [📧 Gmail](mailto:gerciljunio@gmail.com)
 - [💼 LinkedIn](https://www.linkedin.com/in/gercil)
 - [🐙 GitHub](https://github.com/gerciljunio)
