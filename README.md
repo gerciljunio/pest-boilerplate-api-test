@@ -1,7 +1,10 @@
 # Pest Boilerplate API Test
 
 ## Sobre o Projeto
-Este projeto é um boilerplate para testes automatizados de APIs em PHP utilizando Pest. Ele foi criado para acelerar o desenvolvimento de testes em APIs externas ou internas, oferecendo uma estrutura organizada, modular e pronta para uso em qualquer projeto PHP. A proposta é permitir que desenvolvedores iniciem rapidamente seus testes.
+Este projeto é um boilerplate para testes automatizados de APIs em PHP utilizando Pest.
+Ele foi criado para acelerar o desenvolvimento de testes em APIs externas ou internas, oferecendo uma estrutura organizada, modular e pronta para uso em qualquer projeto.
+
+Além disso, o repositório já conta com um workflow de integração contínua (CI) configurado no GitHub Actions, permitindo executar automaticamente todos os testes a cada novo push request.
 
 ## Tecnologias Utilizadas
 - PHP 8.3+
