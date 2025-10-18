@@ -22,15 +22,8 @@ jobs:
       - name: Install dependencies
         run: composer install --no-interaction --prefer-dist --no-progress
 
-      - name: Run tests with Pest
+      - name: Run Pest and generate Allure results
         run: vendor/bin/pest --colors=always
-
-      - name: Load Allure history
-        if: always()
-        uses: actions/checkout@v4
-        with:
-          ref: gh-pages
-          path: gh-pages
 
       - name: Generate Allure HTML
         if: always()
