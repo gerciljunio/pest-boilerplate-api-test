@@ -47,6 +47,9 @@ sudo snap install allure --classic
 ├── .env.testing
 ├── composer.json
 ├── phpunit.xml
+├── .github/
+│   └── workflows/
+│       └── pest.yml
 └── tests
     ├── Api
     │   └── Auth
@@ -66,6 +69,8 @@ sudo snap install allure --classic
 - `composer.json` → Define as dependências do projeto e scripts personalizados. É o ponto central de configuração do projeto em PHP, incluindo o Pest e outras bibliotecas utilizadas nos testes.
 
 - `phpunit.xml` → Arquivo de configuração do PHPUnit, utilizado internamente pelo Pest. Controla parâmetros como diretórios de testes, relatórios e configurações de ambiente de execução.
+
+- `.github/workflows/` → workflow(s) do GitHub Actions (pest.yml).
 
 - `tests/Api/` → Contém os testes organizados por módulos da API. Cada pasta representa uma área funcional, como Auth, Users, Products, etc.
 
