@@ -4,7 +4,7 @@
 Este projeto é um boilerplate para testes automatizados de APIs em PHP utilizando Pest. Ele foi criado para acelerar o desenvolvimento de testes em APIs externas ou internas, oferecendo uma estrutura organizada, modular e pronta para uso em qualquer projeto PHP. A proposta é permitir que desenvolvedores iniciem rapidamente seus testes.
 
 ## Tecnologias Utilizadas
-- PHP 8.4
+- PHP 8.3+
 - Pest PHP – Framework de testes
 - Composer – Gerenciador de dependências do PHP
 - PHPUnit – Base de execução para o Pest

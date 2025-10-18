@@ -33,7 +33,7 @@
             "echo \"\\033[0;32mIniciando geração de relatório com Allure...\\033[0m\"",
             "allure generate build/allure-results --clean -o build/allure-report",
             "echo \"\\033[0;32mAbrindo relatório com Allure...\\033[0m\"",
-            "allure open build/allure-report"
+            "allure open build/allure-report || true"
         ]
     }
 }
